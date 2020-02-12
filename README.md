@@ -1,13 +1,9 @@
 ## About
 
-The chrome app uses the serial API on the chrome browser to program AVR arduinos with a serial bootloader that is avrdude compatible (Arduino Uno, Mega, etc).
-It is a (limited) Arduino IDE and uses a server to compile (since I (spaceneedle) was not crazy enough to write a javascript port of a GCC cross compiler for 8bit AVR)
+This project was forked from spaceneedle's [Chromeduino](https://github.com/spaceneedle/Chromeduino) project. This aims to act as the compilation server the University of Florida STEM + C research team will use to facilitate arduino development for 5th - 6th grade students.
 
-## Buy Us a Coffee
-
-The point of this project, currently, is to provide a free option for people to program an arduino with a chromebook. (like in an educational setting), Thus we will not charge for it.
-
-Saying that, this project is large and takes a lot of coffee to develop, not to mention the cost of hosting the compiling servers, if you'd like to buy us a coffee or two, you can use the button bellow to donate to the developers:
+## Buy them a Coffee
+[Spaceneedle](https://github.com/spaceneedle) has done great work with this project and has allowed the community to utilize it at will. We really appreciate this so please help out and buy them a coffee if you can.
 
 [![Tip A Coffee](https://i.imgur.com/NUOSLzv.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=J5NT7UVN3B76J&item_name=Coding+Open+Source+Projects&currency_code=AUD&source=url)
 
