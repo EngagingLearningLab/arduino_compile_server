@@ -1,6 +1,6 @@
 ## About
 
-This project was forked from spaceneedle's [Chromeduino](https://github.com/spaceneedle/Chromeduino) project. This aims to act as the compilation server the University of Florida STEM + C research team will use to facilitate arduino development for 5th - 6th grade students.
+This project was forked from spaceneedle's [Chromeduino](https://github.com/spaceneedle/Chromeduino) project. This aims to act as the compilation server the University of Florida STEM + C research team will use to facilitate arduino development for 5th - 6th grade students. Some notes on getting it running can be found [here](https://docs.google.com/document/d/13f7hb5UgCkwAou8Az4E6lW59aWp_nS1hyylQRfvLfwo/edit).
 
 ## Buy them a Coffee
 [Spaceneedle](https://github.com/spaceneedle) has done great work with this project and has allowed the community to utilize it at will. We really appreciate this so please help out and buy them a coffee if you can.
@@ -21,9 +21,7 @@ Make sure you have the latest node.js installed.
  6. go to `http://localhost:3000/version`
  
 You can change the port in the config.json.
- 
-### Windows
-Wipe and install linux.
+
  
 ### Share the Love <3
  
