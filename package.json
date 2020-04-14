@@ -1,14 +1,9 @@
 {
-  "name": "chromeduino_server",
+  "name": "compile-service",
   "version": "0.0.1",
-  "description": "Compiling server for the Chromeduino chrome app",
+  "description": "Service compiles arduino code",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "curl https://downloads.arduino.cc/arduino-1.8.5-linux64.tar.xz | tar -xJ"
-  },
-  "author": "Fraser Bullock",
-  "license": "MIT",
+  "scripts": {},
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
