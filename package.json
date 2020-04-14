@@ -3,7 +3,12 @@
   "version": "0.0.1",
   "description": "Service compiles arduino code",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "build": "docker build -t compile-service .",
+    "new": "docker run --name compile-service-dev -p 3000:3000 -d compile-service",
+    "start": "docker start compile-service-dev",
+    "ssh": "docker exec -it compile-service-dev /bin/bash"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
